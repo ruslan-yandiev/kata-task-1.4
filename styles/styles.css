@@ -1,0 +1,158 @@
+.body-wrapper {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-container--start-content {
+  justify-content: start;
+}
+
+.mobile-menu__highlight {
+  display: flex;
+  align-items: center;
+  min-height: 32px;
+}
+
+.mobile-menu__highlight::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 32px;
+  left: -1px;
+  background: #41f6d7;
+  border-radius: 0px 90px 90px 0px;
+}
+
+.btn__ico {
+  width: 40px;
+  height: 40px;
+}
+
+.btn {
+  background-color: #ffffff;
+}
+
+.call-ico {
+  background-image: url(../assets/img/ic/call.svg);
+}
+
+.chat-ico {
+  background-image: url(../assets/img/ic/chat.svg);
+}
+
+.profile-ico {
+  background-image: url(../assets/img/ic/profile.svg);
+}
+
+.main-page {
+  background-color: #f8f8f8;
+}
+
+/* MOBAIL MENU =============================================== */
+.mobile-menu {
+  position: relative;
+  max-width: 320px;
+  min-height: 1024px;
+
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+  background-color: #ffffff;
+
+  font-family: "TT Lakes";
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.2px;
+  color: #1b1c21;
+  font-weight: 500;
+}
+
+.mobile-menu__item {
+  transition-duration: 0.4s;
+}
+
+.mobile-menu__item:hover {
+  font-size: 1.3em;
+  opacity: 0.8;
+}
+
+.mobile-menu__link {
+  color: #1b1c21;
+}
+
+.active-color {
+  color: #7e7e82;
+}
+
+.mobile-menu-footer__ico {
+  margin-bottom: 16px;
+}
+
+.mobile-menu-footer__ico button {
+  margin-right: 16px;
+}
+
+.mobile-menu-footer__contacts {
+  margin-bottom: 40px;
+}
+
+.main-page__mobile-menu-footer {
+  margin-top: 230px;
+}
+
+.mobule-menu__burger-menu {
+  margin-right: 16px;
+}
+
+.mobile-menu__header {
+  margin-bottom: 50px;
+}
+
+.mobile-menu__item {
+  margin-bottom: 32px;
+}
+
+.language__btn {
+  font-weight: 500;
+}
+
+.language__item {
+  margin-right: 7px;
+}
+
+.contacts__email {
+  margin-bottom: 12px;
+}
+
+.phone-number {
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: -0.6px;
+  font-weight: bold;
+}
+
+.burger-menu-ico-close {
+  background-image: url(../assets/img/ic/burger-x.svg);
+}
+
+.search-ico {
+  background-image: url(../assets/img/ic/search.svg);
+}
+
+.mobile-menu-contener {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
